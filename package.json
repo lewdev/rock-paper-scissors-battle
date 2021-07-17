@@ -1,0 +1,11 @@
+{
+  "name": "rock-paper-scissors-battle",
+  "version": "1.0.0",
+  "description": "Watch simulations of emoji Rock, Paper, Scissors battle it out.",
+  "scripts": {
+    "preinstall": "npm i serve concurrently opener -g",
+    "start": "concurrently \"serve src -p 3039\" \"opener http://localhost:3039\""
+  },
+  "author": "Lewis Nakao <lewdev@gmail.com>",
+  "license": "UNLICENSED"
+}
