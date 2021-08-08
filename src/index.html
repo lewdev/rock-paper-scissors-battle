@@ -37,20 +37,21 @@
 
   <!-- CSS -->
   <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; box-sizing: border-box; overflow: hidden; }
   #a { position: relative; display: block; }
   </style>
 </head>
 <body>
 <canvas id=a></canvas>
 <div style="position:absolute;right:0;top:0;font-size:24px;">
+  <select id="gameRules"></select>
   <a href="https://github.com/lewdev/rock-paper-scissors-battle" title="Source Code available on Github!">👨‍💻</a>
   <a href="https://lewdev.github.io" title="Find more stuff by me">
     <img src="https://lewdev.github.io/site/favicon/favicon-32x32.png"/>
   </a>
 </div>
-<script type="text/javascript" src=script.min.js></script>
-<!-- <script type="text/javascript" src=script.js></script> -->
+<!-- <script type="text/javascript" src=script.min.js></script> -->
+<script type="text/javascript" src=script.js></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2833478-13"></script>
 <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
